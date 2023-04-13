@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>一个简单的JavaScript测试网页</title>
+        <!-- 指定默认链接基地址与打开方式 -->
+        <base href="https://cdnjson.com/images/2023/04/01/">
+        <base target="_blank">
+        <style>
+            body{
+               background-color: antiquewhite; 
+            }
+        </style>
+        <meta name="description" content="test javascript">
+        <meta name="keywords" content="css javascript cpp">
+    </head>
+    <body>
+        <h1>javascript举例</h1>
+        <p>javascript修改文字</p>
+        <button type="button" onclick="button_function1()">点击我，修改下面的内容</button>
+        <button type="button" onclick="button_function2()">点击这里，修改下面的文字的样式</button>
+        <p id="demo1">这是原来的内容！</p>
+        <p id="demo2">这是一段话</p>
+        <script>
+            function button_function1(){
+                document.getElementById('demo1').innerHTML = "🐀🐂🐅🐇🐉🐍🐎🐏🐒🐥🐕🐖";
+            }
+            function button_function2(){
+                document.getElementById('demo2').style.fontSize = '50px';
+                document.getElementById('demo2').style.color = 'red';
+                document.getElementById('demo2').style.background = 'black';
+            }
+        </script>
+        <noscript>抱歉，您的浏览器不支持javascript</noscript><br><br>
+        <a href="6666.png">点击打开图片</a>
+    </body>
+</html>
