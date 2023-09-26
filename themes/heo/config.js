@@ -14,7 +14,7 @@ const CONFIG = {
   HERO_TITLE_2: '与思维认知',
   HERO_TITLE_3: 'https://www.helloylh.com',
   HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: '我是Yuleo',
+  HERO_TITLE_5: '这里是Yuleo的个人博客',
   HERO_TITLE_LINK: 'https://www.helloylh.com',
 
   // 英雄区显示三个置顶分类
