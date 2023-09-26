@@ -12,9 +12,9 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HERO_TITLE_1: '分享编程',
   HERO_TITLE_2: '与思维认知',
-  HERO_TITLE_3: 'helloylh.com',
+  HERO_TITLE_3: 'https://www.helloylh.com',
   HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: '这里是Ylh的秘密家园',
+  HERO_TITLE_5: '我是Yuleo',
   HERO_TITLE_LINK: 'https://www.helloylh.com',
 
   // 英雄区显示三个置顶分类
@@ -28,7 +28,7 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
-    '你好！我是Ylh',
+    '你好！我是Yuleo',
     '🔍 分享编程技术',
     '🤝 王者荣耀菜鸡',
     '🏃 热爱单机游戏',
@@ -117,7 +117,7 @@ const CONFIG = {
 
   POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   POST_LIST_SUMMARY: true, // 文章摘要
-  POST_LIST_PREVIEW: false, // 读取文章预览
+  POST_LIST_PREVIEW: true, // 读取文章预览
   POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
   ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
@@ -125,7 +125,7 @@ const CONFIG = {
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  WIDGET_ANALYTICS: false, // 显示统计卡
+  WIDGET_ANALYTICS: true, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
