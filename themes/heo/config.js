@@ -5,16 +5,17 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://www.helloylh.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '记忆付诸生命之时，时间亦将付诸生命', url: 'https://www.helloylh.com' },
+    { title: '既然忘不掉，就把它留在心中，让时间去冲淡它', url: 'https://blog.helloylh.com' },
+    { title: '为遇一人而入红尘，人去我亦去，此生不留尘', url: 'https://pan.helloylh.com' },
   ],
 
   // 英雄区(首页顶部大卡)
   HERO_TITLE_1: '分享编程',
   HERO_TITLE_2: '与思维认知',
   HERO_TITLE_3: 'https://www.helloylh.com',
-  HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: '这里是Yuleo的个人博客',
+  HERO_TITLE_4: '《人月圆·山中书事》',
+  HERO_TITLE_5: '松花酿酒，春水煎茶',
   HERO_TITLE_LINK: 'https://www.helloylh.com',
 
   // 英雄区显示三个置顶分类
@@ -99,10 +100,10 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://www.helloylh.com/aboutme',
+  SOCIAL_CARD_TITLE_1: '一代宗师',
+  SOCIAL_CARD_TITLE_2: '叶底藏花一度，梦里踏雪几回',
+  SOCIAL_CARD_TITLE_3: '记忆是痛苦的根源',
+  SOCIAL_CARD_URL: 'https://blog.helloylh.com/aboutme',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
