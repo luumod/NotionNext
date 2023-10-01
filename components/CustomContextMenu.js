@@ -108,6 +108,11 @@ export default function CustomContextMenu(props) {
     htmlElement.classList?.remove(newStatus ? 'light' : 'dark')
     htmlElement.classList?.add(newStatus ? 'dark' : 'light')
   }
+  
+  function handleRefreshPage() {
+    window.location.reload();
+    setShow(false); // 关闭右键菜单
+  }
 
   return (
         <div
@@ -168,6 +173,11 @@ export default function CustomContextMenu(props) {
                     </div>
                 </div>
 
+                {/* 刷新页面 */}
+              <div onClick={handleRefreshPage} title="刷新页面" className="w-full px-2 h-10 flex justify-start items-center flex-nowrap cursor-pointer hover:bg-blue-600 hover:text-white rounded-lg duration-200 transition-all">
+                <i className="fa-solid fa-sync-alt mr-2" />
+                <div className="whitespace-nowrap">刷新页面</div>
+              </div>
             </div>
         </div >
   )
