@@ -79,7 +79,6 @@ export default function CustomContextMenu(props) {
   }
 
   function handleGoToHome() {
-    const router = useRouter();
     router.push('/');
   }
 
