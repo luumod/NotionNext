@@ -80,6 +80,7 @@ export default function CustomContextMenu(props) {
 
   function handleGoToHome() {
     router.push('/');
+    setShow(false)
   }
 
   function handleCopyLink() {
@@ -111,6 +112,7 @@ export default function CustomContextMenu(props) {
     const htmlElement = document.getElementsByTagName('html')[0]
     htmlElement.classList?.remove(newStatus ? 'light' : 'dark')
     htmlElement.classList?.add(newStatus ? 'dark' : 'light')
+    setShow(false)
   }
 
   return (
