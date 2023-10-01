@@ -113,8 +113,6 @@ export default function CustomContextMenu(props) {
     window.location.reload();
     setShow(false); // 关闭右键菜单
   }
-
-
   return (
         <div
             ref={menuRef}
