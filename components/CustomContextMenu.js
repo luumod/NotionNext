@@ -78,6 +78,11 @@ export default function CustomContextMenu(props) {
     setShow(false)
   }
 
+  function handleGoToHome() {
+    const router = useRouter();
+    router.push('/');
+  }
+
   function handleCopyLink() {
     const url = window.location.href
     navigator.clipboard.writeText(url)
@@ -168,9 +173,14 @@ export default function CustomContextMenu(props) {
                     </div>
 
                     <div onClick={handleRefresh} title={'刷新页面'} className='w-full px-2 h-10 flex justify-start items-center flex-nowrap cursor-pointer hover:bg-blue-600 hover:text-white rounded-lg duration-200 transition-all'>
-                        <i className="fa-solid fa-palette mr-2" />
+                        <i class="fa-solid fa-arrows-rotate mr-2"></i>
                         <div className='whitespace-nowrap'>{'刷新页面'}</div>
                     </div>
+                    <div onClick={handleGoToHome} title="返回首页" className="w-full px-2 h-10 flex justify-start items-center flex-nowrap cursor-pointer hover:bg-blue-600 hover:text-white rounded-lg duration-200 transition-all">
+                        <i className="fa-solid fa-home mr-2" />
+                        <div className="whitespace-nowrap">{'返回首页'}</div>
+                    </div>
+
                 </div>
 
             </div>
