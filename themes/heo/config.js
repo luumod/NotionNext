@@ -7,7 +7,7 @@ const CONFIG = {
   NOTICE_BAR: [
     { title: '记忆付诸生命之时，时间亦将付诸生命', url: 'https://www.helloylh.com' },
     { title: '既然忘不掉，就把它留在心中，让时间去冲淡它', url: 'https://blog.helloylh.com' },
-    { title: '为遇一人而入红尘，人去我亦去，此生不留尘', url: 'https://pan.helloylh.com' },
+    { title: '为遇一人而入红尘，人去我亦去，此生不留尘', url: 'https://pan.helloylh.com' }
   ],
 
   // 英雄区(首页顶部大卡)
@@ -114,7 +114,7 @@ const CONFIG = {
   MENU_SEARCH: true, // 显示搜索
 
   POST_LIST_COVER: true, // 列表显示文章封面
-  POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
+  POST_LIST_COVER_HOVER_ENLARGE: true, // 列表鼠标悬停放大
 
   POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   POST_LIST_SUMMARY: true, // 文章摘要
